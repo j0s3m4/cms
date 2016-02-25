@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^page/(.*) page.php?page=$1
+RewriteRule ^categoria/(.*).html buscar.php?categoria=$1
+</IfModule>
